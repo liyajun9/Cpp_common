@@ -70,3 +70,6 @@ rsyncToDev.sh
 
 # Old branch
 /src_*/
+
+# scripts
+*.sh
