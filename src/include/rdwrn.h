@@ -9,7 +9,7 @@ namespace cpp_common {
 
     ssize_t preadn(int fd, void *buffer, size_t n, off_t offset);
 
-    ssize_t writen(int fd, const void *buf, size_t len);
+    ssize_t writen(int fd, const void *buffer, size_t n, time_t timeout=0);
 
     ssize_t pwriten(int fd, const void *buffer, size_t n, off_t offset);
 }
